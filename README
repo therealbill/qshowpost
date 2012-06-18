@@ -1,0 +1,17 @@
+QShowPost
+
+This is a tool for viewing and watching the stats on one or more postfix queues. 
+It supports multiple instances of Postfix per box via the config file
+
+Build from the src directory.
+=============================
+In src/ do the following:
+1. qmake
+2. make
+
+Now you should have your binary ready. You can run it with a
+--config=/path/to/your/config or put the config in /etc/ and it will read it
+from there. It will require root pemrissions to read the spool directories.
+
+To install, copy it where you want, install the configfile, and if desired the manpages and docs.
+
